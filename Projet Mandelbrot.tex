@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{textcomp}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{lmodern}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{microtype}
+\usepackage{pdfpages}
+\usepackage{tikz}
+\theoremstyle{plain}
+
+\newcommand{\enstq}[2]{\left\{#1\,\middle|\,#2\right\}}
+\newcommand{\card}[1]{\left\lvert#1\right\rvert}
+\newcommand{\ensnombre}[1]{\mathbb{#1}}
+\newcommand{\N}[1]{\ensnombre{N}}
+\newcommand{\C}[1]{\ensnombre{C}}
+\newcommand{\R}[1]{\ensnombre{R}}
+\newcommand{\Z}[1]{\ensnombre{Z}}
+
+\usepackage{hyperref}
+\hypersetup{pdfstartview=XYZ}
+
+\title{Projet Mandelbrot - Fin de L3}
+\author{Camille \textsc{Aimar}, Marc-Antoine \textsc{Mignon-Casseta},\\Njakanavalona \textsc{Rasoloarivony} \\ \\ Université de\emph{ Cergy Pontoise}}
+\date{mars 2018}
+
+\begin{document}
+\maketitle
+\setcounter{chapter}{1}
+\section{Introductio}
+\input{introduction.tex}
+\newpage
+\section{Propriétés}
+	\subsubsection{Définition}
+La théorie générale, développée par Pierre \textsc{Fatou} et Gaston \textsc{Julia} au début du \textsc{XX}\ieme {} siècle associe à toute fonction $f(z,c)$ avec $(z,c) \in \mathbb{C}^2$ les ensembles de Julia $J_C$. Cet ensemble est défini (pour un c fixé) comme la frontière de l'ensemble des $a \in \mathbb{C}$ tels que la suite définie par :
+\begin{equation}\label{julia}
+\left\{
+\begin{array}{r c l}
+z_0 &=& a\\
+z_{n+1} &=& f(z_n, c)
+\end{array}
+\right.
+\end{equation}
+reste bornée en module.
+
+\setlength{\parskip}{3 mm}
+Pour la fonction particulière $f(z,c)=z^2+c$, on définit l'ensemble de Mandelbrot $\mathcal{M}$ comme l'ensemble des $c \in \mathbb{C}$ pour lequel $J_c$ est connexe.
+
+Cette définition est équivalente à celle donnée dans l'introduction. $c \in \mathcal{M}$ si et seulement si la suite $(z_n)$ définie par (\ref{mandelbrot}) reste bornée (en module).
+
+	\subsection{Critère du module égal à 2}
+Il a été démontré que si la suite des modules des $z_n$ est strictement supérieure à $2$ pour un certain indice $N_0$,
+($\exists N_0 \in \mathbb{N} \backslash \forall n \in \mathbb{N},{} n>N_0 \Longrightarrow \|z_n|>2$), alors cette suite est croissante à partir de cet indice $N_0$. De plus on a $\lim zn = +\infty$
+
+Une condition simple pour que la suite $(z_n)_{n \in \mathbb{N}}$ soit bornée est de vérifier qu'elle reste bornée par $2$. On vérifie donc que $\forall n \in \mathbb{N}, z_n \subset \mathcal{B}(0,2)$. 
+
+
+\end{document}
