@@ -18,11 +18,13 @@
 \newtheorem{theo}{Théorème}
 \newcommand{\enstq}[2]{\left\{#1\,\middle|\,#2\right\}}
 \newcommand{\card}[1]{\left\lvert#1\right\rvert}
+
 \newcommand{\ensnombre}[1]{\mathbb{#1}}
 \newcommand{\N}[1]{\ensnombre{N}}
 \newcommand{\C}[1]{\ensnombre{C}}
 \newcommand{\R}[1]{\ensnombre{R}}
 \newcommand{\Z}[1]{\ensnombre{Z}}
+\newcommand{\textm}[1]{\quad \text{#1} \quad}
 
 \usepackage{hyperref}
 \hypersetup{pdfstartview=XYZ}
@@ -63,12 +65,35 @@ Une condition simple pour que la suite $(z_n)_{n \in \mathbb{N}}$ soit bornée e
 
 	\subsection{Mesures et Dimension de Hausdorff}
 	\subsubsection{Mesures extérieures}
-On commence par rappeler la définition d'une mesure extérieure sur un sensemble quelconque $E$. Cette notion est un concept, introduit par le mathématicien Constantin \textsc{Carathéodory}. 
+On commence par rappeler la définition d'une mesure extérieure sur un ensemble quelconque $E$. Cette notion est un concept, introduit par le mathématicien Constantin \textsc{Carathéodory}. 
 
 \begin{definition}
 Soit $X$ un ensemble. Une mesure extérieure sur $X$ est une fonction définie sur l'ensemble de toutes les partie de $X$:
-\[\varphi : \mathcal{P}(X) \longrightarrow [0, +\infty\]
-qui vérifie les trois conditions suivantes
+\[\varphi : \mathcal{P}(X) \longrightarrow [0, +\infty[\]
+qui vérifie les trois conditions suivantes :
+\begin{itemize}
+\item $\mu \emptyset = 0,$
+\item $\mu(A)\leq \mu (B) \textm{si} A\subset B \subset E \textm{croissance}$
+\item $\mu (\cup_n A_n) \leq \sum_n \mu (A_n) \textm{si} \forall n \in \N, A_n \subset E \textm{($\sigma$-sous-additivité)}$
+\end{itemize}
 \end{definition}
+
+	\subsubsection{Mesure de Hausdorff}
+Soit $(E,d)$ espace métrique et $A \subset E.$ Soit $\epsilon \geq 0 \textm{et} s \geq 0.$ On appelle $\epsilon$-recouvrement d'un ensemble $A \subset E$ un recouvrement de $A$ par des parties $X \subset E$ tel que $diam X \leq \epsilon.$ On note $\mathcal{R}_\epsilon(A),$ l'ensemble des $\epsilon-$recouvrements dénombrables de $A$
+\[\mathcal{R}_\epsilon (A)= \enstq{\bigcup_{X \in E}\supseteq A}{diam X \leq \epsilon}\]
+Soit :
+\[\mathcal{H}_\epsilon^s (A) = \inf_{\mathcal{D}\in \mathcal{R}_\epsilon(A)}\sum_{X \in \mathcal{D}}(Diam X)^s\]
+où $\mathcal{R}_\epsilon (A)$ désigne l'ensemble des recouvrements dénombrables de $A$ par des parties $X \subset E$ telles que $diam X \leq \epsilon$
+
+\begin{definition}
+Soit $s \geq 0.$ On définit la mesure de Hausdorff s-dimensionnelle de $A \subset E$ par
+\[\mathcal{H}^s(A) = \lim\limits_{\epsilon \rightarrow 0} \mathcal{H}_\epsilon^s(A)\]
+\end{definition}
+\begin{rmq}
+Il est clair que si $\eta < \epsilon,$ alors $\mathcal{R}_\eta (A) \subset \mathcal{R}_\epsilon(A) \textm{d'où} 
+\mathcal{H}_n^s(A)\geq\mathcal{H}_\epsilon^s(A) \Rightarrow \mathcal{H}^s(A) = \sup_{\epsilon > 0}\mathcal{H}_\epsilon^S(A)$
+\end{rmq}
+\subsubsection*{Dimension de Hausdorff}
+Soit $A \subset E. \exists !d \in \R_+\cup {\infty}$ tel que :
 
 \end{document}
