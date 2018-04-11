@@ -13,6 +13,9 @@
 \usepackage{tikz}
 \theoremstyle{plain}
 
+\newtheorem{definition}{Définition}
+\newtheorem*{rmq}{Remarque}
+\newtheorem{theo}{Théorème}
 \newcommand{\enstq}[2]{\left\{#1\,\middle|\,#2\right\}}
 \newcommand{\card}[1]{\left\lvert#1\right\rvert}
 \newcommand{\ensnombre}[1]{\mathbb{#1}}
@@ -35,7 +38,7 @@
 \input{introduction.tex}
 \newpage
 \section{Propriétés}
-	\subsubsection{Définition}
+	\begin{definition}
 La théorie générale, développée par Pierre \textsc{Fatou} et Gaston \textsc{Julia} au début du \textsc{XX}\ieme {} siècle associe à toute fonction $f(z,c)$ avec $(z,c) \in \mathbb{C}^2$ les ensembles de Julia $J_C$. Cet ensemble est défini (pour un c fixé) comme la frontière de l'ensemble des $a \in \mathbb{C}$ tels que la suite définie par :
 \begin{equation}\label{julia}
 \left\{
@@ -46,8 +49,8 @@ z_{n+1} &=& f(z_n, c)
 \right.
 \end{equation}
 reste bornée en module.
+\end{definition}
 
-\setlength{\parskip}{3 mm}
 Pour la fonction particulière $f(z,c)=z^2+c$, on définit l'ensemble de Mandelbrot $\mathcal{M}$ comme l'ensemble des $c \in \mathbb{C}$ pour lequel $J_c$ est connexe.
 
 Cette définition est équivalente à celle donnée dans l'introduction. $c \in \mathcal{M}$ si et seulement si la suite $(z_n)$ définie par (\ref{mandelbrot}) reste bornée (en module).
@@ -56,7 +59,16 @@ Cette définition est équivalente à celle donnée dans l'introduction. $c \in 
 Il a été démontré que si la suite des modules des $z_n$ est strictement supérieure à $2$ pour un certain indice $N_0$,
 ($\exists N_0 \in \mathbb{N} \backslash \forall n \in \mathbb{N},{} n>N_0 \Longrightarrow \|z_n|>2$), alors cette suite est croissante à partir de cet indice $N_0$. De plus on a $\lim zn = +\infty$
 
-Une condition simple pour que la suite $(z_n)_{n \in \mathbb{N}}$ soit bornée est de vérifier qu'elle reste bornée par $2$. On vérifie donc que $\forall n \in \mathbb{N}, z_n \subset \mathcal{B}(0,2)$. 
+Une condition simple pour que la suite $(z_n)_{n \in \mathbb{N}}$ soit bornée est de vérifier qu'elle reste bornée par $2$. On vérifie donc que $\forall n \in \mathbb{N}, z_n \subset \mathcal{B}(0,2)$.
 
+	\subsection{Mesures et Dimension de Hausdorff}
+	\subsubsection{Mesures extérieures}
+On commence par rappeler la définition d'une mesure extérieure sur un sensemble quelconque $E$. Cette notion est un concept, introduit par le mathématicien Constantin \textsc{Carathéodory}. 
+
+\begin{definition}
+Soit $X$ un ensemble. Une mesure extérieure sur $X$ est une fonction définie sur l'ensemble de toutes les partie de $X$:
+\[\varphi : \mathcal{P}(X) \longrightarrow [0, +\infty\]
+qui vérifie les trois conditions suivantes
+\end{definition}
 
 \end{document}
