@@ -13,9 +13,19 @@
 \usepackage{tikz}
 \theoremstyle{plain}
 
+\theoremstyle{plain}
+\newtheorem{theo}{Théorème}[section]
+\newtheorem{lemme}[theo]{Lemme}
+\newtheorem{prop}[theo]{Proposition}
+\newtheorem*{cor}{Corollaire}
+
+\theoremstyle{definition}
 \newtheorem{definition}{Définition}
+
+\theoremstyle{remark}
 \newtheorem*{rmq}{Remarque}
-\newtheorem{theo}{Théorème}
+\newtheorem*{note}{Note}
+
 \newcommand{\enstq}[2]{\left\{#1\,\middle|\,#2\right\}}
 \newcommand{\card}[1]{\left\lvert#1\right\rvert}
 
@@ -90,10 +100,19 @@ Soit $s \geq 0.$ On définit la mesure de Hausdorff s-dimensionnelle de $A \subs
 \[\mathcal{H}^s(A) = \lim\limits_{\epsilon \rightarrow 0} \mathcal{H}_\epsilon^s(A)\]
 \end{definition}
 \begin{rmq}
-Il est clair que si $\eta < \epsilon,$ alors $\mathcal{R}_\eta (A) \subset \mathcal{R}_\epsilon(A) \textm{d'où} 
-\mathcal{H}_n^s(A)\geq\mathcal{H}_\epsilon^s(A) \Rightarrow \mathcal{H}^s(A) = \sup_{\epsilon > 0}\mathcal{H}_\epsilon^S(A)$
+Il est clair que si $\eta < \epsilon,$ alors \[\mathcal{R}_\eta (A) \subset \mathcal{R}_\epsilon(A) \textm{d'où} 
+\mathcal{H}_n^s(A)\geq\mathcal{H}_\epsilon^s(A) \Rightarrow \mathcal{H}^s(A) = \sup_{\epsilon > 0}\mathcal{H}_\epsilon^S(A)\]
 \end{rmq}
 \subsubsection*{Dimension de Hausdorff}
-Soit $A \subset E. \exists !d \in \R_+\cup {\infty}$ tel que :
+Soit $A \subset E. \exists !d \in \R_+\cup \{\infty\}$ tel que :
+\begin{itemize}
+\item $\mathcal{H}^s(A) = + \infty \quad \forall s<d$
+\item $\mathcal{H}^s(A)=0 \quad \forall s>d$
+\end{itemize}
+Ce $d$ est unique et est appelé dimension de Hausdorff. La dimension d de Hausdorff est la valeur pour la quelle la fonction $s \mapsto \mathcal{H}^s(A)$ saute de la valeur $+ \infty$ à la valeur $0$
+
+donc 
+\[d = \inf \enstq{s \in [0, +\infty[}{\mathcal{H}^s(E)=0}\]
+\[d = \sup \enstq{t \in [0, +\infty[}{\mathcal{H}^t(E)=+\infty}\]
 
 \end{document}
