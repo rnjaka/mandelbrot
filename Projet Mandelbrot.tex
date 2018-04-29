@@ -30,10 +30,11 @@
 \newcommand{\card}[1]{\left\lvert#1\right\rvert}
 
 \newcommand{\ensnombre}[1]{\mathbb{#1}}
-\newcommand{\N}[1]{\ensnombre{N}}
-\newcommand{\C}[1]{\ensnombre{C}}
-\newcommand{\R}[1]{\ensnombre{R}}
-\newcommand{\Z}[1]{\ensnombre{Z}}
+\newcommand{\N}[1]{\mathcal{N}}
+\newcommand{\C}[1]{\mathcal{C}}
+\newcommand{\R}[1]{\mathcal{R}}
+\newcommand{\Z}[1]{\mathcal{Z}}
+
 \newcommand{\textm}[1]{\quad \text{#1} \quad}
 
 \usepackage{hyperref}
@@ -114,5 +115,26 @@ Ce $d$ est unique et est appelé dimension de Hausdorff. La dimension d de Hausd
 donc 
 \[d = \inf \enstq{s \in [0, +\infty[}{\mathcal{H}^s(E)=0}\]
 \[d = \sup \enstq{t \in [0, +\infty[}{\mathcal{H}^t(E)=+\infty}\]
+
+\begin{lemme}
+$\textm{Soient} A \subset E \textm{et} 0\leq t <s<+\infty \textm{alors}$
+\[\mathcal{H}^t(A) <+ \infty \Rightarrow \mathcal{H}^s (A)=0 \textm{et} \mathcal{H}^s(A)>0 \Rightarrow \mathcal{H}^t(A) = + \infty\]
+\end{lemme}
+
+\begin{proof}
+$\textm{Soit} \epsilon > 0, A \subset E. \textm{on a :}$
+\begin{equation*}\label{xx}
+\begin{split}
+\mathcal{H}^s_\epsilon (A)& \leq \inf_{\mathcal{D \in \mathcal{R}_\epsilon} (A)} \sum_{X \in \mathcal{D}} \epsilon ^{s-t} (diam X)^t \\
+& = \epsilon^{s-t} \inf_{\mathcal{D \in \mathcal{R}_\epsilon} (A)} \sum_{X \in \mathcal{D}} (diam X)^t \\
+& = \epsilon^{s-t} \mathcal{H}^t_\epsilon (A)
+\end{split}
+\end{equation*}
+$\textm{En faisant tendre} \epsilon\rightarrow 0,$
+\[\mathcal{H}^s (A) \leq \epsilon ^{s-t} H^t (A)\]
+Donc \[\mathcal{H}^s _{\epsilon} (A) \rightarrow 0 \textm{lorsque} \epsilon \rightarrow 0\]
+
+
+\end{proof}
 
 \end{document}
