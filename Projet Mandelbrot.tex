@@ -70,7 +70,7 @@ Cette définition est équivalente à celle donnée dans l'introduction. $c \in 
 
 	\subsection{Critère du module égal à 2}
 Il a été démontré que si la suite des modules des $z_n$ est strictement supérieure à $2$ pour un certain indice $N_0$,
-($\exists N_0 \in \mathbb{N} \backslash \forall n \in \mathbb{N},{} n>N_0 \Longrightarrow \|z_n|>2$), alors cette suite est croissante à partir de cet indice $N_0$. De plus on a $\lim zn = +\infty$
+($\exists N_0 \in \mathbb{N} \backslash \forall n \in \mathbb{N},{} n>N_0 \Longrightarrow \|z_n\|>2$), alors cette suite est croissante à partir de cet indice $N_0$. De plus on a $\lim zn = +\infty$
 
 Une condition simple pour que la suite $(z_n)_{n \in \mathbb{N}}$ soit bornée est de vérifier qu'elle reste bornée par $2$. On vérifie donc que $\forall n \in \mathbb{N}, z_n \subset \mathcal{B}(0,2)$.
 
@@ -83,7 +83,7 @@ Soit $X$ un ensemble. Une mesure extérieure sur $X$ est une fonction définie s
 \[\varphi : \mathcal{P}(X) \longrightarrow [0, +\infty[\]
 qui vérifie les trois conditions suivantes :
 \begin{itemize}
-\item $\mu \emptyset = 0,$
+\item $\mu (\emptyset) = 0,$
 \item $\mu(A)\leq \mu (B) \textm{si} A\subset B \subset E \textm{croissance}$
 \item $\mu (\cup_n A_n) \leq \sum_n \mu (A_n) \textm{si} \forall n \in \N, A_n \subset E \textm{($\sigma$-sous-additivité)}$
 \end{itemize}
@@ -105,6 +105,7 @@ Il est clair que si $\eta < \epsilon,$ alors \[\mathcal{R}_\eta (A) \subset \mat
 \mathcal{H}_n^s(A)\geq\mathcal{H}_\epsilon^s(A) \Rightarrow \mathcal{H}^s(A) = \sup_{\epsilon > 0}\mathcal{H}_\epsilon^S(A)\]
 \end{rmq}
 \subsubsection*{Dimension de Hausdorff}
+\begin{theo}\label{Hausdorff}
 Soit $A \subset E. \exists !d \in \R_+\cup \{\infty\}$ tel que :
 \begin{itemize}
 \item $\mathcal{H}^s(A) = + \infty \quad \forall s<d$
@@ -116,7 +117,11 @@ donc
 \[d = \inf \enstq{s \in [0, +\infty[}{\mathcal{H}^s(E)=0}\]
 \[d = \sup \enstq{t \in [0, +\infty[}{\mathcal{H}^t(E)=+\infty}\]
 
-\begin{lemme}
+La preuve de ce théorème repose sur le lemme suivant.
+\end{theo}
+
+
+\begin{lemme}\label{lemme}
 $\textm{Soient} A \subset E \textm{et} 0\leq t <s<+\infty \textm{alors}$
 \[\mathcal{H}^t(A) <+ \infty \Rightarrow \mathcal{H}^s (A)=0 \textm{et} \mathcal{H}^s(A)>0 \Rightarrow \mathcal{H}^t(A) = + \infty\]
 \end{lemme}
@@ -133,8 +138,15 @@ $\textm{Soit} \epsilon > 0, A \subset E. \textm{on a :}$
 $\textm{En faisant tendre} \epsilon\rightarrow 0,$
 \[\mathcal{H}^s (A) \leq \epsilon ^{s-t} H^t (A)\]
 Donc \[\mathcal{H}^s _{\epsilon} (A) \rightarrow 0 \textm{lorsque} \epsilon \rightarrow 0\]
-
-
 \end{proof}
+
+\begin{proof}[Démonstration du théorème \ref{Hausdorff}]
+$\textm{Soit} d' = \inf (s \geq 0, \mathcal{H}^s _\epsilon (A) < + \infty)$
+
+Par définition, si $s<d \Rightarrow \mathcal{H}^s (A) = +\infty \textm {(voir théorème)}$
+
+par le lemme \ref{lemme}, $\mathcal{H}^s(A)=0$ et il est clair que ce $d$ est unique.
+\end{proof}
+
 
 \end{document}
