@@ -41,8 +41,8 @@
 \hypersetup{pdfstartview=XYZ}
 
 \title{Projet Mandelbrot - Fin de L3}
-\author{Camille \textsc{Aimar}, Marc-Antoine \textsc{Mignon-Casseta},\\Njakanavalona \textsc{Rasoloarivony} \\ \\ Université de\emph{ Cergy Pontoise}}
-\date{mars 2018}
+\author{Camille \textsc{Aimar}, Marc-Antoine \textsc{Mignon-Caseta},\\Njakanavalona \textsc{Rasoloarivony} \\ \\ Université de\emph{ Cergy Pontoise}}
+\date{avril 2018}
 
 \begin{document}
 \maketitle
@@ -70,7 +70,7 @@ Cette définition est équivalente à celle donnée dans l'introduction. $c \in 
 
 	\subsection{Critère du module égal à 2}
 Il a été démontré que si la suite des modules des $z_n$ est strictement supérieure à $2$ pour un certain indice $N_0$,
-($\exists N_0 \in \mathbb{N} \backslash \forall n \in \mathbb{N},{} n>N_0 \Longrightarrow \|z_n\|>2$), alors cette suite est croissante à partir de cet indice $N_0$. De plus on a $\lim zn = +\infty$
+($\exists N_0 \in \mathbb{N} \backslash \forall n \in \mathbb{N},{} n>N_0 \Longrightarrow \|z_n\|>2$), alors cette suite est croissante à partir de cet indice $N_0$. De plus on a $\lim z_n = +\infty$
 
 Une condition simple pour que la suite $(z_n)_{n \in \mathbb{N}}$ soit bornée est de vérifier qu'elle reste bornée par $2$. On vérifie donc que $\forall n \in \mathbb{N}, z_n \subset \mathcal{B}(0,2)$.
 
@@ -84,7 +84,7 @@ Soit $X$ un ensemble. Une mesure extérieure sur $X$ est une fonction définie s
 qui vérifie les trois conditions suivantes :
 \begin{itemize}
 \item $\mu (\emptyset) = 0,$
-\item $\mu(A)\leq \mu (B) \textm{si} A\subset B \subset E \textm{croissance}$
+\item $\mu(A)\leq \mu (B) \textm{si} A\subset B \subset E \textm{(croissance)}$
 \item $\mu (\cup_n A_n) \leq \sum_n \mu (A_n) \textm{si} \forall n \in \N, A_n \subset E \textm{($\sigma$-sous-additivité)}$
 \end{itemize}
 \end{definition}
@@ -111,12 +111,14 @@ Soit $A \subset E. \exists !d \in \R_+\cup \{\infty\}$ tel que :
 \item $\mathcal{H}^s(A) = + \infty \quad \forall s<d$
 \item $\mathcal{H}^s(A)=0 \quad \forall s>d$
 \end{itemize}
-Ce $d$ est unique et est appelé dimension de Hausdorff. La dimension d de Hausdorff est la valeur pour la quelle la fonction $s \mapsto \mathcal{H}^s(A)$ saute de la valeur $+ \infty$ à la valeur $0$
-
-donc 
-\[d = \inf \enstq{s \in [0, +\infty[}{\mathcal{H}^s(E)=0}\]
-\[d = \sup \enstq{t \in [0, +\infty[}{\mathcal{H}^t(E)=+\infty}\]
-
+Ce $d$ est unique et est appelé dimension de Hausdorff. La dimension d de Hausdorff est la valeur pour la quelle la fonction $s \mapsto \mathcal{H}^s(A)$ saute de la valeur $+ \infty$ à la valeur $0$.
+Donc
+\begin{equation*}\label{x}
+\begin{split}
+d &= \inf \enstq{s \in [0, +\infty[}{\mathcal{H}^s(E)=0}\\
+d &= \sup \enstq{t \in [0, +\infty[}{\mathcal{H}^t(E)=+\infty}
+\end{split}
+\end{equation*} 
 La preuve de ce théorème repose sur le lemme suivant.
 \end{theo}
 
@@ -142,9 +144,7 @@ Donc \[\mathcal{H}^s _{\epsilon} (A) \rightarrow 0 \textm{lorsque} \epsilon \rig
 
 \begin{proof}[Démonstration du théorème \ref{Hausdorff}]
 $\textm{Soit} d' = \inf (s \geq 0, \mathcal{H}^s _\epsilon (A) < + \infty)$
-
 Par définition, si $s<d \Rightarrow \mathcal{H}^s (A) = +\infty \textm {(voir théorème)}$
-
 par le lemme \ref{lemme}, $\mathcal{H}^s(A)=0$ et il est clair que ce $d$ est unique.
 \end{proof}
 
