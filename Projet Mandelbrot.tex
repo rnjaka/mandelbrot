@@ -11,6 +11,7 @@
 \usepackage{microtype}
 \usepackage{pdfpages}
 \usepackage{tikz}
+\usepackage{listings}
 \theoremstyle{plain}
 
 \theoremstyle{plain}
@@ -75,7 +76,7 @@ Pour la fonction particulière $f(z,c)=z^2+c$, on définit l'ensemble de Mandelb
 
 Cette définition est équivalente à celle donnée dans l'introduction. $c \in \mathcal{M}$ si et seulement si la suite $(z_n)$ définie par (\ref{mandelbrot}) reste bornée (en module).
 
-	\subsection{Critère du module égal à 2}
+	\subsection{Critère du module égal à 2}\label{critère du module égal à 2}
 Il a été démontré que si la suite des modules des $z_n$ est strictement supérieure à $2$ pour un certain indice $N_0$,
 ($\exists N_0 \in \mathbb{N} \backslash \forall n \in \mathbb{N},{} n>N_0 \Longrightarrow \|z_n\|>2$), alors cette suite est croissante à partir de cet indice $N_0$. De plus on a $\lim z_n = +\infty$
 

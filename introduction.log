@@ -1,0 +1,1901 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.3.23)  30 APR 2018 23:25
+entering extended mode
+**./introduction.tex
+(introduction.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 76 language(s) loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 E
+     n math√©matiques, \emph{l'ensemble de Mandelbrot} est une fractale d√©f...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+! Undefined control sequence.
+l.2 ... comme l'ensemble des points $c \in \mathbb
+                                                  {C}$ pour lesquels la suit...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+
+Overfull \hbox (32.40549pt too wide) in paragraph at lines 2--3
+[]\OT1/cmr/m/it/10 En
+ []
+
+
+Overfull \hbox (25.29984pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 math-
+ []
+
+
+Overfull \hbox (16.86656pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 ma-
+ []
+
+
+Overfull \hbox (28.11092pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 tiques,
+ []
+
+
+Overfull \hbox (44.77785pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 l'ensemble
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 Man-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 del-
+ []
+
+
+Overfull \hbox (18.36116pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/n/10 brot
+ []
+
+
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 est
+ []
+
+
+Overfull \hbox (15.58879pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 une
+ []
+
+
+Overfull \hbox (20.06094pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 frac-
+ []
+
+
+Overfull \hbox (15.58878pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 tale
+ []
+
+
+Overfull \hbox (24.02208pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 dfinie
+ []
+
+
+Overfull \hbox (30.15535pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 comme
+ []
+
+
+Overfull \hbox (44.46637pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 l'ensemble
+ []
+
+
+Overfull \hbox (13.79991pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 des
+ []
+
+
+Overfull \hbox (25.81094pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 points
+ []
+
+
+Overfull \hbox (13.77196pt too wide) in paragraph at lines 2--3
+\OML/cmm/m/it/10 c \OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (7.86249pt too wide) in paragraph at lines 2--3
+\OML/cmm/m/it/10 C$
+ []
+
+
+Overfull \hbox (19.29431pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 pour
+ []
+
+
+Overfull \hbox (32.45534pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 lesquels
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (20.4443pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 suite
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (22.48875pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 nom-
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 bres
+ []
+
+
+Overfull \hbox (20.9554pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 com-
+ []
+
+
+Overfull \hbox (25.59428pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 plexes
+ []
+
+
+Overfull \hbox (24.02208pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 dfinie
+ []
+
+
+Overfull \hbox (13.92767pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 par
+ []
+
+
+Overfull \hbox (21.46648pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 rcur-
+ []
+
+
+Overfull \hbox (22.61646pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 rence
+ []
+
+
+Overfull \hbox (13.92767pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 par
+ []
+
+
+Overfull \hbox (3.06665pt too wide) in paragraph at lines 2--3
+\OT1/cmr/m/it/10 : 
+ []
+
+
+Overfull \hbox (63.34021pt too wide) detected at line 10
+[][]
+ []
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 10--13
+\OT1/cmr/m/it/10 est
+ []
+
+
+Overfull \hbox (26.70535pt too wide) in paragraph at lines 10--13
+\OT1/cmr/m/it/10 borne.
+ []
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \emph{L'ensemble de Mandelbrot}
+                                     (not√©e aussi $\mathcal{M}$) a √©t√© d√...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ® in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no † in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no Æ in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no † in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no † in font cmti10!
+
+Overfull \hbox (68.25008pt too wide) in paragraph at lines 14--16
+[]\OT1/cmr/m/n/10 L'ensemble
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 Man-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 del-
+ []
+
+
+Overfull \hbox (18.36116pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 brot
+ []
+
+
+Overfull \hbox (22.7443pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 (note
+ []
+
+
+Overfull \hbox (21.7221pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 aussi
+ []
+
+
+Overfull \hbox (16.09785pt too wide) in paragraph at lines 14--16
+\OMS/cmsy/m/n/10 M$\OT1/cmr/m/it/10 )
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (3.32219pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 t
+ []
+
+
+Overfull \hbox (23.25539pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 dcou-
+ []
+
+
+Overfull \hbox (16.73874pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 vert
+ []
+
+
+Overfull \hbox (13.92767pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 par
+ []
+
+
+Overfull \hbox (20.51376pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Gas-
+ []
+
+
+Overfull \hbox (14.05547pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ton
+ []
+
+
+Overfull \hbox (15.57765pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/sc/10 Ju-
+ []
+
+
+Overfull \hbox (14.28882pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/sc/10 lia
+ []
+
+
+Overfull \hbox (7.92215pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 et
+ []
+
+
+Overfull \hbox (26.972pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Pierre
+ []
+
+
+Overfull \hbox (15.86932pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/sc/10 Fa-
+ []
+
+
+Overfull \hbox (18.39992pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/sc/10 tou
+ []
+
+
+Overfull \hbox (23.76651pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 avant
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (18.6665pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Pre-
+ []
+
+
+Overfull \hbox (19.54985pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 mire
+ []
+
+
+Overfull \hbox (30.22476pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Guerre
+ []
+
+
+Overfull \hbox (22.48875pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 mon-
+ []
+
+
+Overfull \hbox (11.75548pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 di-
+ []
+
+
+Overfull \hbox (15.33324pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ale.
+ []
+
+
+Overfull \hbox (10.73328pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Sa
+ []
+
+
+Overfull \hbox (11.75548pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 df-
+ []
+
+
+Overfull \hbox (6.6444pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ni-
+ []
+
+
+Overfull \hbox (17.12212pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 tion
+ []
+
+
+Overfull \hbox (7.92215pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 et
+ []
+
+
+Overfull \hbox (14.82214pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 son
+ []
+
+
+Overfull \hbox (18.91101pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 nom
+ []
+
+
+Overfull \hbox (25.55537pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 actuel
+ []
+
+
+Overfull \hbox (18.14433pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 sont
+ []
+
+
+Overfull \hbox (14.56659pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 dus
+ []
+
+
+Overfull \hbox (29.53868pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Adrien
+ []
+
+
+Overfull \hbox (42.13593pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/sc/10 Douady\OT1/cmr/m/it/10 ,
+ []
+
+
+Overfull \hbox (10.22215pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 en
+ []
+
+
+Overfull \hbox (21.97765pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 hom-
+ []
+
+
+Overfull \hbox (22.48874pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 mage
+ []
+
+
+Overfull \hbox (15.1166pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 aux
+ []
+
+
+Overfull \hbox (35.52194pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 reprsen-
+ []
+
+
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ta-
+ []
+
+
+Overfull \hbox (21.21098pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 tions
+ []
+
+
+Overfull \hbox (23.2554pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 qu'en
+ []
+
+
+Overfull \hbox (5.11108pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 a
+ []
+
+
+Overfull \hbox (27.7276pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ralises
+ []
+
+
+Overfull \hbox (25.69427pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Benot
+ []
+
+
+Overfull \hbox (25.93315pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/sc/10 Man-
+ []
+
+
+Overfull \hbox (20.73322pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/sc/10 del-
+ []
+
+
+Overfull \hbox (23.86656pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/sc/10 brot
+ []
+
+
+Overfull \hbox (19.93323pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 dans
+ []
+
+
+Overfull \hbox (11.24437pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 les
+ []
+
+
+Overfull \hbox (25.0443pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 annes
+ []
+
+
+Overfull \hbox (23.51099pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 1980.
+ []
+
+
+Overfull \hbox (15.07765pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Cet
+ []
+
+
+Overfull \hbox (13.7999pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 en-
+ []
+
+
+Overfull \hbox (20.4443pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 sem-
+ []
+
+
+Overfull \hbox (11.75546pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ble
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 per-
+ []
+
+
+Overfull \hbox (16.09988pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 met
+ []
+
+
+Overfull \hbox (37.94974pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 d'indicer
+ []
+
+
+Overfull \hbox (11.16667pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 les
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 en-
+ []
+
+
+Overfull \hbox (20.05557pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 sem-
+ []
+
+
+Overfull \hbox (16.72224pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 bles
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (14.0278pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 Ju-
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 lia
+ []
+
+
+Overfull \hbox (3.06665pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 :
+ []
+
+
+Overfull \hbox (29.38869pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 chaque
+ []
+
+
+Overfull \hbox (21.72208pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 point
+ []
+
+
+Overfull \hbox (10.47772pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 du
+ []
+
+
+Overfull \hbox (18.3999pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 plan
+ []
+
+
+Overfull \hbox (20.9554pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 com-
+ []
+
+
+Overfull \hbox (21.50542pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 plexe
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 cor-
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 re-
+ []
+
+
+Overfull \hbox (24.53319pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 spond
+ []
+
+
+Overfull \hbox (10.98883pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 un
+ []
+
+
+Overfull \hbox (13.7999pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 en-
+ []
+
+
+Overfull \hbox (20.4443pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 sem-
+ []
+
+
+Overfull \hbox (11.75546pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ble
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (14.19434pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Ju-
+ []
+
+
+Overfull \hbox (10.73328pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 lia
+ []
+
+
+Overfull \hbox (34.62752pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 diffrent.
+ []
+
+
+Overfull \hbox (14.44987pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Les
+ []
+
+
+Overfull \hbox (25.81094pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 points
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (44.77785pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 l'ensemble
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 Man-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 del-
+ []
+
+
+Overfull \hbox (18.36116pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 brot
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 cor-
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 re-
+ []
+
+
+Overfull \hbox (22.99985pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 spon-
+ []
+
+
+Overfull \hbox (18.65543pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 dent
+ []
+
+
+Overfull \hbox (24.14981pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 prcis-
+ []
+
+
+Overfull \hbox (21.72208pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ment
+ []
+
+
+Overfull \hbox (15.1166pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 aux
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 en-
+ []
+
+
+Overfull \hbox (20.05557pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 sem-
+ []
+
+
+Overfull \hbox (16.72224pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 bles
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (14.0278pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 Ju-
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 lia
+ []
+
+
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 con-
+ []
+
+
+Overfull \hbox (26.6165pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 nexes,
+ []
+
+
+Overfull \hbox (7.92215pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 et
+ []
+
+
+Overfull \hbox (18.6943pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ceux
+ []
+
+
+Overfull \hbox (10.22215pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 en
+ []
+
+
+Overfull \hbox (13.28879pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 de-
+ []
+
+
+Overfull \hbox (18.52766pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 hors
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 cor-
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 re-
+ []
+
+
+Overfull \hbox (22.99985pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 spon-
+ []
+
+
+Overfull \hbox (18.65543pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 dent
+ []
+
+
+Overfull \hbox (15.1166pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 aux
+ []
+
+
+Overfull \hbox (13.33334pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 en-
+ []
+
+
+Overfull \hbox (20.05557pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 sem-
+ []
+
+
+Overfull \hbox (16.72224pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 bles
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (14.0278pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 Ju-
+ []
+
+
+Overfull \hbox (10.55559pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 lia
+ []
+
+
+Overfull \hbox (16.35547pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 non
+ []
+
+
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 con-
+ []
+
+
+Overfull \hbox (26.6165pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 nexes.
+ []
+
+
+Overfull \hbox (15.07765pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 Cet
+ []
+
+
+Overfull \hbox (13.7999pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 en-
+ []
+
+
+Overfull \hbox (20.4443pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 sem-
+ []
+
+
+Overfull \hbox (11.75546pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ble
+ []
+
+
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 est
+ []
+
+
+Overfull \hbox (20.44432pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 donc
+ []
+
+
+Overfull \hbox (12.26659pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 in-
+ []
+
+
+Overfull \hbox (22.74428pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 time-
+ []
+
+
+Overfull \hbox (21.72208pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ment
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 li
+ []
+
+
+Overfull \hbox (44.77785pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 l'ensemble
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (14.0278pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 Ju-
+ []
+
+
+Overfull \hbox (13.62224pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/n/10 lia\OT1/cmr/m/it/10 ,
+ []
+
+
+Overfull \hbox (9.71106pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ils
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 pro-
+ []
+
+
+Overfull \hbox (31.17758pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 duisent
+ []
+
+
+Overfull \hbox (40.24976pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 d'ailleurs
+ []
+
+
+Overfull \hbox (13.79991pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 des
+ []
+
+
+Overfull \hbox (29.26093pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 formes
+ []
+
+
+Overfull \hbox (18.911pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 sim-
+ []
+
+
+Overfull \hbox (6.6444pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (22.61649pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 laire-
+ []
+
+
+Overfull \hbox (21.72208pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 ment
+ []
+
+
+Overfull \hbox (20.9554pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 com-
+ []
+
+
+Overfull \hbox (28.66093pt too wide) in paragraph at lines 14--16
+\OT1/cmr/m/it/10 plexes.
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{C:/Users/Njaka/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+! Undefined control sequence.
+<write> \newlabel{mandelbrot}{{1}{\thepage 
+                                           }}
+l.16 
+     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+\newlabel{mandelbrot}{{1}{}}
+]
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 L
+      es images de \emph{l'ensemble de Mandelbrot} sont r√©alis√©es en parco...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ® in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ® in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+! Undefined control sequence.
+<write> ...eference `mandelbrot' on page \thepage 
+                                                  \space undefined\on@line .
+l.17 ... relation de r√©currence (\ref{mandelbrot}
+                                                  ). On consid√®re la partie...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `mandelbrot' on page  undefined on input line 17.
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ® in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no © in font cmti10!
+
+Overfull \hbox (34.44987pt too wide) in paragraph at lines 17--19
+[]\OT1/cmr/m/it/10 Les
+ []
+
+
+Overfull \hbox (14.82213pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 im-
+ []
+
+
+Overfull \hbox (18.39987pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 ages
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (44.77785pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/n/10 l'ensemble
+ []
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/n/10 de
+ []
+
+
+Overfull \hbox (23.0556pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/n/10 Man-
+ []
+
+
+Overfull \hbox (16.11113pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/n/10 del-
+ []
+
+
+Overfull \hbox (18.36116pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/n/10 brot
+ []
+
+
+Overfull \hbox (18.14433pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 sont
+ []
+
+
+Overfull \hbox (27.7276pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 ralises
+ []
+
+
+Overfull \hbox (10.22215pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 en
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 par-
+ []
+
+
+Overfull \hbox (32.32753pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 courant
+ []
+
+
+Overfull \hbox (11.24437pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 les
+ []
+
+
+Overfull \hbox (22.48875pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 nom-
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 bres
+ []
+
+
+Overfull \hbox (20.9554pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 com-
+ []
+
+
+Overfull \hbox (25.59428pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 plexes
+ []
+
+
+Overfull \hbox (13.67213pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 sur
+ []
+
+
+Overfull \hbox (15.58879pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 une
+ []
+
+
+Overfull \hbox (22.61652pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 rgion
+ []
+
+
+Overfull \hbox (22.23314pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 carre
+ []
+
+
+Overfull \hbox (10.47772pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 du
+ []
+
+
+Overfull \hbox (18.3999pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 plan
+ []
+
+
+Overfull \hbox (20.9554pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 com-
+ []
+
+
+Overfull \hbox (24.57207pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 plexe.
+ []
+
+
+Overfull \hbox (14.44987pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 Les
+ []
+
+
+Overfull \hbox (21.72208pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 point
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (19.93314pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 cette
+ []
+
+
+Overfull \hbox (22.61652pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 rgion
+ []
+
+
+Overfull \hbox (10.47772pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 du
+ []
+
+
+Overfull \hbox (18.3999pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 plan
+ []
+
+
+Overfull \hbox (20.9554pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 com-
+ []
+
+
+Overfull \hbox (21.50542pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 plexe
+ []
+
+
+Overfull \hbox (8.68883pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 se
+ []
+
+
+Overfull \hbox (11.75548pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 di-
+ []
+
+
+Overfull \hbox (25.29982pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 visent
+ []
+
+
+Overfull \hbox (10.22215pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 en
+ []
+
+
+Overfull \hbox (19.71655pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 deux
+ []
+
+
+Overfull \hbox (16.09985pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 cat-
+ []
+
+
+Overfull \hbox (25.68315pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 gories
+ []
+
+
+Overfull \hbox (3.06665pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 :
+ []
+
+
+Overfull \hbox (18.6943pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 ceux
+ []
+
+
+Overfull \hbox (13.03325pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 qui
+ []
+
+
+Overfull \hbox (13.7999pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 gn-
+ []
+
+
+Overfull \hbox (17.24985pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 rent
+ []
+
+
+Overfull \hbox (15.58879pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 une
+ []
+
+
+Overfull \hbox (20.4443pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 suite
+ []
+
+
+Overfull \hbox (16.35547pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 non
+ []
+
+
+Overfull \hbox (23.6387pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 borne
+ []
+
+
+Overfull \hbox (7.92215pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 et
+ []
+
+
+Overfull \hbox (18.6943pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 ceux
+ []
+
+
+Overfull \hbox (13.03325pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 qui
+ []
+
+
+Overfull \hbox (13.7999pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 gn-
+ []
+
+
+Overfull \hbox (17.24985pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 rent
+ []
+
+
+Overfull \hbox (15.58879pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 une
+ []
+
+
+Overfull \hbox (20.4443pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 suite
+ []
+
+
+Overfull \hbox (23.6387pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 borne
+ []
+
+
+Overfull \hbox (18.39984pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 avec
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (11.88321pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 re-
+ []
+
+
+Overfull \hbox (11.24437pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 la-
+ []
+
+
+Overfull \hbox (17.12212pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 tion
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (21.46648pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 rcur-
+ []
+
+
+Overfull \hbox (22.61646pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 rence
+ []
+
+
+Overfull \hbox (22.10544pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 ([]).
+ []
+
+
+Overfull \hbox (13.28882pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 On
+ []
+
+
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 con-
+ []
+
+
+Overfull \hbox (20.57207pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 sidre
+ []
+
+
+Overfull \hbox (7.66663pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 la
+ []
+
+
+Overfull \hbox (17.50542pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 par-
+ []
+
+
+Overfull \hbox (10.9888pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 tie
+ []
+
+
+Overfull \hbox (19.03874pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 relle
+ []
+
+
+Overfull \hbox (7.92215pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 et
+ []
+
+
+Overfull \hbox (24.53317pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 imag-
+ []
+
+
+Overfull \hbox (6.6444pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 i-
+ []
+
+
+Overfull \hbox (22.1054pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 naire
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (29.38869pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 chaque
+ []
+
+
+Overfull \hbox (22.48875pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 nom-
+ []
+
+
+Overfull \hbox (12.90543pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 bre
+ []
+
+
+Overfull \hbox (20.9554pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 com-
+ []
+
+
+Overfull \hbox (21.50542pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 plexe
+ []
+
+
+Overfull \hbox (30.15535pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 comme
+ []
+
+
+Overfull \hbox (13.79991pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 des
+ []
+
+
+Overfull \hbox (12.77766pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 co-
+ []
+
+
+Overfull \hbox (12.90546pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 or-
+ []
+
+
+Overfull \hbox (33.22203pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 donnes.
+ []
+
+
+Overfull \hbox (8.68884pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 Si
+ []
+
+
+Overfull \hbox (7.1555pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 le
+ []
+
+
+Overfull \hbox (19.9721pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 pixel
+ []
+
+
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 con-
+ []
+
+
+Overfull \hbox (25.172pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 verge,
+ []
+
+
+Overfull \hbox (21.0832pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 alors
+ []
+
+
+Overfull \hbox (5.6222pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 il
+ []
+
+
+Overfull \hbox (12.01102pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 est
+ []
+
+
+Overfull \hbox (21.08318pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 color
+ []
+
+
+Overfull \hbox (10.22215pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 en
+ []
+
+
+Overfull \hbox (21.0832pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 noir.
+ []
+
+
+Overfull \hbox (28.11096pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 Sinon,
+ []
+
+
+Overfull \hbox (10.73328pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 on
+ []
+
+
+Overfull \hbox (7.1555pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 le
+ []
+
+
+Overfull \hbox (15.3332pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 col-
+ []
+
+
+Overfull \hbox (8.68883pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 o-
+ []
+
+
+Overfull \hbox (11.88324pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 rie
+ []
+
+
+Overfull \hbox (21.97765pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 selon
+ []
+
+
+Overfull \hbox (9.19995pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 sa
+ []
+
+
+Overfull \hbox (12.39433pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 ra-
+ []
+
+
+Overfull \hbox (19.67766pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 pidit
+ []
+
+
+Overfull \hbox (9.71104pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 de
+ []
+
+
+Overfull \hbox (11.75548pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 di-
+ []
+
+
+Overfull \hbox (16.9943pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 ver-
+ []
+
+
+Overfull \hbox (26.57756pt too wide) in paragraph at lines 17--19
+\OT1/cmr/m/it/10 gence.
+ []
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \begin{figure}
+                   \label{Ensemble de Mandelbrot en noir}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.22 \includegraphics
+                     [scale=0.1]{images/Ensemble de Mandelbrot en noir.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \includegraphics[
+                      scale=0.1]{images/Ensemble de Mandelbrot en noir.png}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \caption
+             {Ensemble de Mandelbrot en noir}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no E in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \end{figure}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> ./introduction.tex
+                      
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 22 strings out of 493301
+ 359 string characters out of 3138743
+ 59853 words of memory out of 3000000
+ 3669 multiletter control sequences out of 15000+200000
+ 4595 words of font info for 17 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 18i,7n,14p,835b,151s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
