@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{report}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
@@ -42,11 +42,18 @@
 
 \title{Projet Mandelbrot - Fin de L3}
 \author{Camille \textsc{Aimar}, Marc-Antoine \textsc{Mignon-Caseta},\\Njakanavalona \textsc{Rasoloarivony} \\ \\ Université de\emph{ Cergy Pontoise}}
-\date{avril 2018}
+\date{mai 2018}
 
 \begin{document}
 \maketitle
-\setcounter{chapter}{1}
+\newpage
+\begin{abstract}
+Python est un langage de programmation qui intègre de grandes capacités de calculs formels. Son intérêt porte tant sur la vitesse de calculs que sur la capacité à créer des modélisation variées.
+ 
+Depuis quelques décennies, un nouvel objet est apparu dans les mathématiques: les fractales. Ces dernières, notamment du fait du caractère d’autosimilarité, n'ont depuis cessé d'intéresser les chercheurs. L'engouement est d’autant plus grand que la mode actuelle est de montrer que la nature utilise partout les fractales. 
+L'objectif de ce projet est d'approfondir les connaissances du groupe sur les principes topologiques et dynamiques liés aux fractales, notamment en se concentrant sur l'ensemble de Mandelbrot, afin de faire les liens entre ensemble de phases et ensemble de coordonnées. 
+L'étude des langages informatiques et des algorithmes sont très importants ici et le sujet soulève les questions d'optimisation et de vitesse de calcul, essentielles en mathématiques. 
+\end{abstract}
 \section{Introduction}
 \input{introduction.tex}
 \newpage
@@ -90,7 +97,7 @@ qui vérifie les trois conditions suivantes :
 \end{definition}
 
 	\subsubsection{Mesure de Hausdorff}
-Soit $(E,d)$ espace métrique et $A \subset E.$ Soit $\epsilon \geq 0 \textm{et} s \geq 0.$ On appelle $\epsilon$-recouvrement d'un ensemble $A \subset E$ un recouvrement de $A$ par des parties $X \subset E$ tel que $diam X \leq \epsilon.$ On note $\mathcal{R}_\epsilon(A),$ l'ensemble des $\epsilon-$recouvrements dénombrables de $A$
+Soit $(E,d)$ un espace métrique muni de la topologie de la distance usuelle et soit $\mathcal{C}$ une courbe tel que $C \subset E.$ Soit $\epsilon \geq 0 \textm{et} s \geq 0.$ On appelle $\epsilon$-recouvrement d'un ensemble $\mathcal{C} \subset E$ un recouvrement de $C$ par des parties $X \subset E$ tel que $diam X = \epsilon.$ On note $\mathcal{R}_\epsilon(A),$ l'ensemble des $\epsilon-$recouvrements dénombrables de $A$
 \[\mathcal{R}_\epsilon (A)= \enstq{\bigcup_{X \in E}\supseteq A}{diam X \leq \epsilon}\]
 Soit :
 \[\mathcal{H}_\epsilon^s (A) = \inf_{\mathcal{D}\in \mathcal{R}_\epsilon(A)}\sum_{X \in \mathcal{D}}(Diam X)^s\]
@@ -104,14 +111,21 @@ Soit $s \geq 0.$ On définit la mesure de Hausdorff s-dimensionnelle de $A \subs
 Il est clair que si $\eta < \epsilon,$ alors \[\mathcal{R}_\eta (A) \subset \mathcal{R}_\epsilon(A) \textm{d'où} 
 \mathcal{H}_n^s(A)\geq\mathcal{H}_\epsilon^s(A) \Rightarrow \mathcal{H}^s(A) = \sup_{\epsilon > 0}\mathcal{H}_\epsilon^S(A)\]
 \end{rmq}
-\subsubsection*{Dimension de Hausdorff}
+\subsubsection{Dimension de Hausdorff}
+\begin{figure}[h]
+\centering
+	\caption{Schématisation de la fonction $s \longmapsto \mathcal{H}^s(A)$}
+	\label{schéma dimension hausdorff}
+	\includegraphics{dimension hausdorff.png}
+\end{figure}
 \begin{theo}\label{Hausdorff}
 Soit $A \subset E. \exists !d \in \R_+\cup \{\infty\}$ tel que :
 \begin{itemize}
 \item $\mathcal{H}^s(A) = + \infty \quad \forall s<d$
 \item $\mathcal{H}^s(A)=0 \quad \forall s>d$
 \end{itemize}
-Ce $d$ est unique et est appelé dimension de Hausdorff. La dimension d de Hausdorff est la valeur pour la quelle la fonction $s \mapsto \mathcal{H}^s(A)$ saute de la valeur $+ \infty$ à la valeur $0$.
+Ce $d$ est unique et est appelé dimension de Hausdorff. La dimension d de Hausdorff est la valeur pour la quelle la fonction $s \mapsto \mathcal{H}^s(A)$ saute de la valeur $+ \infty$ à la valeur $0$. (voir figure \ref{schéma dimension hausdorff})
+
 Donc
 \begin{equation*}\label{x}
 \begin{split}
@@ -121,8 +135,9 @@ d &= \sup \enstq{t \in [0, +\infty[}{\mathcal{H}^t(E)=+\infty}
 \end{equation*} 
 La preuve de ce théorème repose sur le lemme suivant.
 \end{theo}
-
-
+\begin{rmq}
+La dimension de Hausdorff de la frontière de l'ensemble de Mandelbrot vaut $2$. Ce résultat à été démontré en 1990 par Mitsuhiro \textsc{Shishikura}
+\end {rmq}
 \begin{lemme}\label{lemme}
 $\textm{Soient} A \subset E \textm{et} 0\leq t <s<+\infty \textm{alors}$
 \[\mathcal{H}^t(A) <+ \infty \Rightarrow \mathcal{H}^s (A)=0 \textm{et} \mathcal{H}^s(A)>0 \Rightarrow \mathcal{H}^t(A) = + \infty\]
